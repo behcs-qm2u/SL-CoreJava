@@ -12,7 +12,7 @@ public class ClassA {
 	
 	//  (parameterized constructor)
 	public ClassA(int val1, String val2, String val3) {
-		System.out.println("Inside Constructor");
+		System.out.println("Inside Param Constructor");
 		
 		Salary=val1;
 		Name=val2;

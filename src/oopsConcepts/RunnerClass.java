@@ -8,6 +8,7 @@ public class RunnerClass {
 		ClassA Emp1 = new ClassA();
 		ClassA Emp2 = new ClassA(200, "SomeTwo", "Org2");
 		
+		
 		Emp1.Name = "Someone";
 		Emp1.Salary = 8888;
 		Emp1.OrgName = "Happy Org";
@@ -17,8 +18,12 @@ public class RunnerClass {
 		Emp2.Display();
 		
 		ClassB Emp0 = new ClassB();
-		Emp0.Display();
+		Emp0.show();
 
+		ClassC objC = new ClassC();
+		objC.show();
+		objC.run();
+		
 	}
 
 }

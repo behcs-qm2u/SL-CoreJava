@@ -2,9 +2,9 @@ package oopsConcepts;
 
 public class ClassB extends ClassA {
 
-	public void Display() {
+	public void show() {
 		
-		System.out.println("Display nothing from Class B");
+		System.out.println("Show nothing from Class B");
 	}
 	
 	
