@@ -5,7 +5,9 @@ public class RunnerClass {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		ClassA Emp1 = new ClassA();
+		/* -- 8May21
+		 ClassA Emp1 = new ClassA();
+		 
 		ClassA Emp2 = new ClassA(200, "SomeTwo", "Org2");
 		
 		
@@ -23,6 +25,14 @@ public class RunnerClass {
 		ClassC objC = new ClassC();
 		objC.show();
 		objC.run();
+		
+		*/
+		
+		MethodOverloading obj3 = new MethodOverloading();
+		
+		obj3.add(1, 2);
+		obj3.add(1.8, 2.3);
+		
 		
 	}
 
