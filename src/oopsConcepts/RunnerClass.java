@@ -51,7 +51,13 @@ public class RunnerClass {
 		obj5.method2();
 		
 		
+		// Encapsulation
 		
+		EncapsulationExample obj7 = new EncapsulationExample();
+		
+		obj7.setSalary(1000);
+		
+		System.out.println(obj7.getSalary());
 		
 		
 	}
