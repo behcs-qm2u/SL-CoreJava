@@ -39,6 +39,19 @@ public class RunnerClass {
 		
 		obj4.display();
 		obj4.parentdisp();
+		// obj4.show();
+		MethodOverrideChild.show();
+		
+		
+		// Abstraction
+		
+		AbstractChild obj5 = new AbstractChild();
+		
+		obj5.method1();
+		obj5.method2();
+		
+		
+		
 		
 		
 	}

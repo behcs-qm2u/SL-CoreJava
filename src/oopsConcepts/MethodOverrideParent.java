@@ -2,6 +2,11 @@ package oopsConcepts;
 
 public class MethodOverrideParent {
 	
+	public static void show() {
+		
+		System.out.println("This is show - static");
+	}
+	
 	public void display() {
 		
 		System.out.println("Inside Parent");
