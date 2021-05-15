@@ -33,6 +33,13 @@ public class RunnerClass {
 		obj3.add(1, 2);
 		obj3.add(1.8, 2.3);
 		
+		// MethodOverride
+		
+		MethodOverrideChild obj4 = new MethodOverrideChild();
+		
+		obj4.display();
+		obj4.parentdisp();
+		
 		
 	}
 
